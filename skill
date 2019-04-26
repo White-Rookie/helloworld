@@ -2,3 +2,8 @@ git log --graph --pretty=oneline --abbrev-commit#cat branch merged status
 git push origin branch name
 git pull #no tracking information---git branch --set-upstream-to <branch-name> origin/<branch-name>
 git pull origin master --allow-unrelate-histories
+###when you merge two branch, there maybe some conflicts,after you have corrected the mistakes,the last step you should do is "git commit"
+git reflog ##historic instructions
+git log ##get history information and decide which commit-id you want to go
+git reset --hard commit-id##head^ or head^^
+
