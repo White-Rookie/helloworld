@@ -1,1 +1,4 @@
-git log --graph --pretty&oneline --abbrev-commit#cat branch merged status
+git log --graph --pretty=oneline --abbrev-commit#cat branch merged status
+git push origin branch name
+git pull #no tracking information---git branch --set-upstream-to <branch-name> origin/<branch-name>
+git pull origin master --allow-unrelate-histories
