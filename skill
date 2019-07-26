@@ -16,5 +16,6 @@ the most important is the sign of "--",without it there will be a different mean
 
 when you have add the file, before you commit, you can use ---git reset HEAD <file> transit the modified content from storage area to work area
 
+wanghan for xian in 7.26.2019
 
 
